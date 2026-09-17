@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Módulo de Búsqueda - Persona 2
-palabra="home"
+palabra=$1
 archivo_salida="encontrados.tmp"
 
 echo "=== [PERSONA 2] Buscando la palabra '$palabra' ==="
