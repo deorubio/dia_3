@@ -1,6 +1,6 @@
 #!/bin/bash
 # Módulo de Búsqueda - Persona 2
-palabra=$1 #Guarda la variable de palabra que el usario escoge
+palabra=$1 #Guarda la variable de palabra que el usario escoge(En nuestro caso funciona con "home" ya que es la palabra que se encuentra en los documentos)
 archivo_salida="encontrados.tmp" #Crea otra variable la cual crea otro archivo donde se se guardan los resultados
 
 echo "=== [PERSONA 2] Buscando la palabra '$palabra' ===" 
